@@ -4,7 +4,7 @@
   "dir": "auto",
   "display": "standalone",
   "name": "Chizurum Nwosu Portfolio",
-  "orientation": "any",
+  "orientation": "portrait-primary",
   "scope": "/",
   "short_name": "Portfolio",
   "start_url": "/index.htm",
