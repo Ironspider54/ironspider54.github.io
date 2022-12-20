@@ -9,6 +9,8 @@ const assets = [
   'images/scroll-top-img.png',
   'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css',
+  'js/script.js',
+  'images/scroll-top-img.png',
 
 ];
 
