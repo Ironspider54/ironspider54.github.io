@@ -1,9 +1,9 @@
 
 ;const staticCacheName = 'site-static';
 const assets = [
-  '/index.htm',
-  '/js/app.js',
-  '/css/style.css',
+  'index.htm',
+  'js/app.js',
+  'css/style.css',
   'https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap',
   'images/pic.jpg',
   'images/scroll-top-img.png',
