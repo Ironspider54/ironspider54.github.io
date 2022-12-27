@@ -54,3 +54,27 @@
   }
 ]
 }
+"lang": "en",
+  "shortcuts": [
+    {
+      "name": "About",
+      "url": "https://ironspider54.github.io/Portfolio/#about",
+      "description": "The about part of the app"
+    },
+    {
+      "name": "Education",
+      "url": "https://ironspider54.github.io/Portfolio/#education",
+      "description": "The education part of the app"
+    },
+    {
+      "name": "Portflio",
+      "url": "https://ironspider54.github.io/Portfolio/#portfloio",
+      "description": "The Portfolio part of the app"
+    },
+    {
+      "name": "Contact",
+      "url": "https://ironspider54.github.io/Portfolio/#contact",
+      "description": "The  Contact part of the app"
+    }
+  ]
+}
