@@ -64,10 +64,15 @@
 "lang": "en",
 "shortcuts": [
   {
-    "name": "About",
-    "url": "https://ironspider54.github.io/Portfolio/#about",
-    "description": "The about part of the app"
-  },
+      "name": "About",
+      "url": "https://ironspider54.github.io/Portfolio/#about",
+      "icons": [
+        {
+          "src": "images/About.png"
+        }
+      ],
+      "description": "The about part of the app"
+    },
   {
     "name": "Education",
     "url": "https://ironspider54.github.io/Portfolio/#education",
