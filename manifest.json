@@ -12,7 +12,18 @@
   "categories": [
     "business"
   ],
-  "screenshots": [],
+  "screenshots": [
+    {
+      "src": "images/screenshot.png"
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "images/Capture.png"
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ],
   "icons": [{
     "src": "images/icon 72x72.png",
     "type": "image/png",
