@@ -14,12 +14,12 @@
   ],
   "screenshots": [
     {
-      "src": "images/screenshot.png"
+      "src": "images/screenshot.png",
       "sizes": "1280x800",
       "type": "image/png"
     },
     {
-      "src": "images/Capture.png"
+      "src": "images/Capture.png",
       "sizes": "750x1334",
       "type": "image/png"
     }
@@ -100,4 +100,5 @@
     "url": "https://ironspider54.github.io/Portfolio/#contact",
     "description": "The  Contact part of the app"
   }
-]}
+]
+}
