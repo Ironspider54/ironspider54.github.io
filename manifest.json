@@ -77,7 +77,7 @@
 "shortcuts": [
   {
       "name": "About",
-      "url": "https://ironspider54.github.io/Portfolio/#about",
+      "url": "https://ironspider54.github.io/portfolio/#about",
       "icons": [
         {
           "src": "images/About.png"
@@ -87,17 +87,17 @@
     },
   {
     "name": "Education",
-    "url": "https://ironspider54.github.io/Portfolio/#education",
+    "url": "https://ironspider54.github.io/portfolio/#education",
     "description": "The education part of the app"
   },
   {
     "name": "Portfolio",
-    "url": ".http://ironspider54.github.io/Portfolio/#portfolio",
+    "url": ".http://ironspider54.github.io/portfolio/#portfolio",
     "description": "The Portfolio part of the app"
   },
   {
     "name": "Contact",
-    "url": "https://ironspider54.github.io/Portfolio/#contact",
+    "url": "https://ironspider54.github.io/portfolio/#contact",
     "description": "The  Contact part of the app"
   }
 ]
