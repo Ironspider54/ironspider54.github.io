@@ -1,0 +1,5 @@
+RewriteEngine On
+
+#redirect non-www to www for all domain
+RewriteCond %{HTTP_HOST} !^ironspider54.github.io$
+RewriteRule ^(.*)$ http://www.ironspider54.github.io%{HTTP_HOST}/$1 [R=301,L]
