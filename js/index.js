@@ -6,6 +6,7 @@ const app = express();
 // 'www' option for redirecting non-www to www and 'non-www'option for redirecting www to non-www
 
 app.use(redirect("non-www")); 
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
