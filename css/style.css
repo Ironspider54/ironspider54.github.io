@@ -346,6 +346,10 @@ header .navbar ul li a{
     }
 }
  .intro, .details {
+      font-size:2rem;
+    color:var(--Red);
+    padding:1rem 0;
+    font-weight:400 
      font-size: 18px;
     /* Adjust the font size as per your preference */
      color: white;
