@@ -1,110 +1,86 @@
-<!DOCTYPE html>
-
-<html>
-    <head>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<!-- header section starts  -->
 <header>
-    <div class="user">
-        <img src="images/pic.jpg" alt="">
-        <h3 class="name">Chizurum Nwosu</h3>
-        <p class="post">Front end developer</p>
-    </div>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>
-            <li><a href="#Donate">donate</a></li>
-        </ul>
-    </nav>
-</header>
-<!-- header section ends -->
-
-<div id="menu" class="fas fa-bars"></div>
-
-<!-- home section starts  -->
+  <div class="user">
+    <img src="images/pic.jpg" alt="pic">
+    <h3 class="name">Chizurum Nwosu</h3>
+    <p class="post">Front end developer</p>
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="#home">home</a>
+      </li>
+      <li>
+        <a href="#about">about</a>
+      </li>
+      <li>
+        <a href="#education">education</a>
+      </li>
+      <li>
+        <a href="#portfolio">portfolio</a>
+      </li>
+      <li>
+        <a href="#contact">contact</a>
+      </li>
+      <li>
+        <a href="#Donate">donate</a>
+      </li>
+    </ul>
+  </nav>
+</header><!-- header section ends -->
+<div id="menu" class="fas fa-bars"></div><!-- home section starts  -->
 <section class="home" id="home">
-    <h3>Hi there!</h3>
-    <h1>I'm Chizurum Nwosu</h1>
-    <!-- Add a brief introduction about yourself -->
-    <p>I am a passionate front-end developer with a knack for creating interactive and dynamic web applications. I am always eager to learn and implement new technologies.</p>
-    <!-- End of introduction -->
-    <h1>I am an up-and-coming 
-        <a href="#home" class="typewrite" data-period="2000"
-        data-type='[ "front-end developer","IT developer"]'>
-            <span class="wrap"></span>
-        </a>
-    </h1>
-    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
-</section>
-<!-- home section ends -->
-
+  <h3>Hi there!</h3>
+  <h1>I'm Chizurum Nwosu</h1><!-- Add a brief introduction about yourself -->
+  <p>I am a passionate front-end developer with a knack for creating interactive and dynamic web applications. I am always eager to learn and implement new technologies.</p><!-- End of introduction -->
+  <h1>I am an up-and-coming <a href="#home" class="typewrite" data-period="2000" data-type='[ "front-end developer","IT developer"]'></a></h1><a href="#about"><button class="btn">about me</button></a>
+</section><!-- home section ends -->
 <!-- about section starts  -->
 <section class="about" id="about">
-    <h1 class="heading">About me</h1>
-    <!-- Add a brief introduction about yourself -->
-    <p class="intro">I am a passionate front-end developer with a knack for creating interactive and dynamic web applications. I am always eager to learn and implement new technologies.</p>
+  <h1 class="heading">About me</h1><!-- Add a brief introduction about yourself -->
+  <p class="intro">I am a passionate front-end developer with a knack for creating interactive and dynamic web applications. I am always eager to learn and implement new technologies.</p><!-- Add more details about your skills and expertise -->
+  <p class="details">I have expertise in HTML, CSS, JavaScript, and ReactJS. I also have experience with responsive design and accessibility. In my free time, I enjoy coding personal projects and exploring new technologies.</p><!-- Rest of the code remains the same -->
+  <!-- contact section starts  -->
+  <section class="contact" id="contact">
+    <h1 class="heading">Contact me</h1>
+    <div class="row">
+      <div class="content">
+        <h3 class="title">Contact Info</h3>
+        <div class="info">
+          <h3>Nwosu.chizurme@gmail.com</h3>
+          <h3>+123-456-7890</h3>
+          <h3>+111-222-3333</h3>
+          <h3>Canada, Vancouver</h3>
+          <form action="https://formsubmit.co/b4e93264f3cebf7bc93cbfa4a87269f0" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Full Name" required=""><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="_replyto" placeholder="Email Address"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="_subject" placeholder="Message"></textarea><br>
+            <button type="submit">Send Message</button>
+          </form><!-- Donate section starts -->
+          <section class="Donate" id="Donate">
+            <script src="//donorbox.org/widget.js" paypalexpress='false'></script><iframe allowpaymentrequest="" frameborder='0' height='900px' name='donorbox' scrolling='no' seamless='seamless' src="//donorbox.org/embed/chizurum-donate?hide_donation_meter=true" style='max-width: 500px; min-width: 250px; max-height:none!important' width='100%' id="donorbox"></iframe> <!-- Donate section ends -->
+             <!-- scroll top button  -->
+             <a href="#home" class='top'><img src='images/scroll-top-img.png' alt='scroll-top-img'></a> <!-- jquery cdn link  -->
+             
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script> <!-- custom js file link  -->
+             
+            <script src='js/script.js'></script> 
+            <script src='js/app.js'></script> <!-- Google tag (gtag.js) -->
+             
+            <script async src='https://www.googletagmanager.com/gtag/js?id=G-5G56M8Q86B'></script> 
+            <script type='text/partytown'>
 
-    <!-- Add more details about your skills and expertise -->
-    <p class="details">I have expertise in HTML, CSS, JavaScript, and ReactJS. I also have experience with responsive design and accessibility. In my free time, I enjoy coding personal projects and exploring new technologies.</p>
 
-    <!-- Rest of the code remains the same -->
-
-<!-- contact section starts  -->
-<section class="contact" id="contact">
-<h1 class="heading">Contact me</h1>
-
-<div class="row">
-<div class="content">
-<h3 class="title">Contact Info</h3>
-
-<div class="info">
-<h3><i class="fas fa-envelope"></i> Nwosu.chizurme@gmail.com </h3>
-<h3><i class="fas fa-phone"></i> +123-456-7890 </h3>
-<h3><i class="fas fa-phone"></i> +111-222-3333 </h3>
-<h3><i class="fas fa-map-marker-alt"></i> Canada, Vancouver </h3>
-
-<form action="https://formsubmit.co/b4e93264f3cebf7bc93cbfa4a87269f0" method="POST">
-<label for="name">Full Name:</label><br/>
-<input type="text" id="name" name="name" placeholder="Full Name" required><br/>
-<label for="email">Email Address:</label><br/>
-<input type="email" id="email" name="_replyto" placeholder="Email Address"><br/>
-<label for="message">Message:</label><br/>
-<textarea id="message" name="_subject" placeholder="Message"></textarea><br/>
-<button type="submit">Send Message</button>
-</form>
-
-<!-- Donate section starts -->
-<section class="Donate" id="Donate">
-<script src="//donorbox.org/widget.js" paypalExpress='false'></script><iframe allowpaymentrequest="" frameborder='0' height='900px' name='donorbox' scrolling='no' seamless='seamless' src="//donorbox.org/embed/chizurum-donate?hide_donation_meter=true" style='max-width: 500px; min-width: 250px; max-height:none!important' width='100%'></iframe>
-
-<!-- Donate section ends -->
-
-<!-- scroll top button  -->
-<a href="#home" class='top'>
-<img src='images/scroll-top-img.png' alt='' />
-</a>
-
-<!-- jquery cdn link  -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-
-<!-- custom js file link  -->
-<script src='js/script.js'></script>
-<script src='js/app.js'></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src='https://www.googletagmanager.com/gtag/js?id=G-5G56M8Q86B'></script>
-<script type='text/partytown'>
-window.dataLayer = window.dataLayer || [];
-function gtag() { dataLayer.push(arguments); }
-gtag('js', new Date());
-gtag('config', 'G-5G56M8Q86B');
-</script>
-
-</body>
-</html>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-5G56M8Q86B');
+            </script>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
